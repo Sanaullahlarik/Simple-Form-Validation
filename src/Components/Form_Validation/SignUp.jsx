@@ -38,7 +38,7 @@ export const SignUp = () => {
     }
 
     console.log(firstName, secondName, email, password, confirmPassword);
-
+    
     setFirstName("");
     setSecondName("");
     setEmail("");
@@ -76,7 +76,7 @@ export const SignUp = () => {
                 <h5 class="text-center mt-4 fs-1 fw-medium text-success">
                   Sign Up
                 </h5>
-              </div>
+              </div> 
               <div className="card-body">
                 <form onSubmit={signUpFormHandler}>
                   <div className="form-group my-3">
